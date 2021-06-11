@@ -12,7 +12,9 @@ body{
     text-align: center;
     height: 100vh;
     color: black;
-    
+    background-repeat: no-repeat;
+   
+    /* background-size: 100vw; */
 }
 #time{
     font-size: 8rem;
