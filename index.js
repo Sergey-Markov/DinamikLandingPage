@@ -36,22 +36,22 @@ function setBgGreet (){
 
     if(hour < 12){
         // It's morning
-        document.body.style.backgroundImage = "url('../image/morningFishing.jpg')";
+        document.body.style.backgroundImage = "url('./image/morningFishing.jpg')";
         
 
         greeting.textContent ='Good morning';
     } else if(hour < 13){
         // It's diner
-        document.body.style.backgroundImage = "url('../image/preparing-seafood-happy-european-chef-in-cook-uniform-rubber-gloves-holds-red-sea-bass-clenches-fist-with-joy.jpg')";
+        document.body.style.backgroundImage = "url('./image/preparing-seafood-happy-european-chef-in-cook-uniform-rubber-gloves-holds-red-sea-bass-clenches-fist-with-joy.jpg')";
         greeting.textContent ='Bon Appetit';
         // Bon Appetit
     } else if(hour < 18){
         // It's afternoon
-        document.body.style.backgroundImage = "url('../image/fishingAfternoon.jpg')";
+        document.body.style.backgroundImage = "url('./image/fishingAfternoon.jpg')";
         greeting.textContent ='good afternoon';
     } else {
         // It's evening
-        document.body.style.backgroundImage = "Url('../image/fish-goodevening.jpg')";
+        document.body.style.backgroundImage = "Url('./image/fish-goodevening.jpg')";
         greeting.textContent ='good evening! Tell me your dreams...';
         document.body.style.color = 'white';
     }
